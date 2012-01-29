@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC6866B14D58419000EAA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC6866A14D58419000EAA89 /* UIKit.framework */; };
+		BFC6866D14D58419000EAA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC6866C14D58419000EAA89 /* Foundation.framework */; };
+		BFC6866F14D58419000EAA89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC6866E14D58419000EAA89 /* CoreGraphics.framework */; };
+		BFC6867514D58419000EAA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC6867314D58419000EAA89 /* InfoPlist.strings */; };
+		BFC6867714D58419000EAA89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6867614D58419000EAA89 /* main.m */; };
+		BFC6867B14D58419000EAA89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6867A14D58419000EAA89 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFC6866614D58419000EAA89 /* CircularGestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularGestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC6866A14D58419000EAA89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFC6866C14D58419000EAA89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFC6866E14D58419000EAA89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFC6867214D58419000EAA89 /* CircularGestureDemo-Info.plist */ = {isa = PBXFileReference; path = "CircularGestureDemo-Info.plist"; sourceTree = "<group>"; };
+		BFC6867414D58419000EAA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFC6867614D58419000EAA89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFC6867814D58419000EAA89 /* CircularGestureDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CircularGestureDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BFC6867914D58419000EAA89 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFC6867A14D58419000EAA89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC6866314D58419000EAA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC6866B14D58419000EAA89 /* UIKit.framework in Frameworks */,
+				BFC6866D14D58419000EAA89 /* Foundation.framework in Frameworks */,
+				BFC6866F14D58419000EAA89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC6865B14D58419000EAA89 = {
+			isa = PBXGroup;
+			children = (
+				BFC6867014D58419000EAA89 /* CircularGestureDemo */,
+				BFC6866914D58419000EAA89 /* Frameworks */,
+				BFC6866714D58419000EAA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC6866714D58419000EAA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC6866614D58419000EAA89 /* CircularGestureDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC6866914D58419000EAA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC6866A14D58419000EAA89 /* UIKit.framework */,
+				BFC6866C14D58419000EAA89 /* Foundation.framework */,
+				BFC6866E14D58419000EAA89 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC6867014D58419000EAA89 /* CircularGestureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BFC6867914D58419000EAA89 /* AppDelegate.h */,
+				BFC6867A14D58419000EAA89 /* AppDelegate.m */,
+				BFC6867114D58419000EAA89 /* Supporting Files */,
+			);
+			path = CircularGestureDemo;
+			sourceTree = "<group>";
+		};
+		BFC6867114D58419000EAA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC6867214D58419000EAA89 /* CircularGestureDemo-Info.plist */,
+				BFC6867314D58419000EAA89 /* InfoPlist.strings */,
+				BFC6867614D58419000EAA89 /* main.m */,
+				BFC6867814D58419000EAA89 /* CircularGestureDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC6866514D58419000EAA89 /* CircularGestureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC6867E14D58419000EAA89 /* Build configuration list for PBXNativeTarget "CircularGestureDemo" */;
+			buildPhases = (
+				BFC6866214D58419000EAA89 /* Sources */,
+				BFC6866314D58419000EAA89 /* Frameworks */,
+				BFC6866414D58419000EAA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularGestureDemo;
+			productName = CircularGestureDemo;
+			productReference = BFC6866614D58419000EAA89 /* CircularGestureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC6865D14D58419000EAA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BFC6866014D58419000EAA89 /* Build configuration list for PBXProject "CircularGestureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFC6865B14D58419000EAA89;
+			productRefGroup = BFC6866714D58419000EAA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC6866514D58419000EAA89 /* CircularGestureDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC6866414D58419000EAA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC6867514D58419000EAA89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC6866214D58419000EAA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC6867714D58419000EAA89 /* main.m in Sources */,
+				BFC6867B14D58419000EAA89 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFC6867314D58419000EAA89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC6867414D58419000EAA89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC6867C14D58419000EAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC6867D14D58419000EAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC6867F14D58419000EAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularGestureDemo/CircularGestureDemo-Prefix.pch";
+				INFOPLIST_FILE = "CircularGestureDemo/CircularGestureDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFC6868014D58419000EAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularGestureDemo/CircularGestureDemo-Prefix.pch";
+				INFOPLIST_FILE = "CircularGestureDemo/CircularGestureDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC6866014D58419000EAA89 /* Build configuration list for PBXProject "CircularGestureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC6867C14D58419000EAA89 /* Debug */,
+				BFC6867D14D58419000EAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC6867E14D58419000EAA89 /* Build configuration list for PBXNativeTarget "CircularGestureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC6867F14D58419000EAA89 /* Debug */,
+				BFC6868014D58419000EAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC6865D14D58419000EAA89 /* Project object */;
+}
